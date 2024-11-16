@@ -1,6 +1,6 @@
     fun main() {
         val points = Array(4) { IntArray(10) }
-        //多次元配列を生成する構文 Array(size{IntArray(size)}
+        //多次元配列を生成する構文 Array(size){IntArray(size)}
         //第一引数はサイズ、第二引数は要素を指定
         //Arrayは型を明示できる。Array<IntArray>
 
