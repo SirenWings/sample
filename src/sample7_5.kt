@@ -11,10 +11,10 @@ fun main() {
     for (i in 15 until points.size)
         points[i] = 70
 
-    var sumPoint = points.sum()
+    val sumPoint = points.sum()
 
-    val averaePoint = sumPoint.toDouble() / points.size
-    println("このクラスの平均点は${averaePoint}点です")
+    val averagePoint = sumPoint.toDouble() / points.size
+    println("このクラスの平均点は${averagePoint}点です")
 
     for (i in 0..<points.size)
         println("出席番号${i + 1}番は${points[i]}点です")
