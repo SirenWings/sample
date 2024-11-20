@@ -12,5 +12,5 @@ fun main() {
             index++
         }
     }
-    println((index + 1).toString() + "回目で全員が同じ手を出しました")
+    println("${(index + 1)}回目で全員が同じ手を出しました")
 }
