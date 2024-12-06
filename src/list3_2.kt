@@ -1,5 +1,4 @@
 fun main() {
-    println(Perso().say())
     val me = Perso("Taro","taro@yamada")
     println(me.say())
     val you = Perso(mail = "hanako@flower",name = "Hanako")
