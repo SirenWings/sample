@@ -6,7 +6,7 @@ fun main(){
 }
 
 class Person {//Personというクラスを定義
-    var name = "noname"
+var name = "noname"
     var mail = ""
 
     fun say() = "Name:${name},Email:${mail}"
